@@ -1,0 +1,48 @@
+{
+  "name": "VELORA BOOKS — Where Stories Become Timeless",
+  "short_name": "Velora",
+  "description": "A luxury online bookstore and digital reading platform for curated physical books and digital eBooks.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F7F3EC",
+  "theme_color": "#171513",
+  "categories": ["books", "shopping", "education"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "My Library",
+      "short_name": "Library",
+      "description": "Open your purchased eBooks",
+      "url": "/account/library"
+    },
+    {
+      "name": "Shop",
+      "short_name": "Shop",
+      "description": "Browse the curated collection",
+      "url": "/shop"
+    },
+    {
+      "name": "Search",
+      "short_name": "Search",
+      "description": "Search the archive",
+      "url": "/search"
+    }
+  ]
+}
